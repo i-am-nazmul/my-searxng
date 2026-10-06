@@ -13,4 +13,7 @@ search:
 outgoing:
   proxies:
     all://:
-      - socks5://127.0.0.1:9050
+      - http://iitlibye:3cr6n3ulhiku@31.59.20.176:6754
+      - http://iitlibye:3cr6n3ulhiku@45.38.107.97:6014
+      - http://iitlibye:3cr6n3ulhiku@64.137.96.74:6641
+      - http://iitlibye:3cr6n3ulhiku@198.23.243.226:6361
