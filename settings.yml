@@ -1,0 +1,11 @@
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "change-this-to-any-random-32-chars-long-string-now"
+
+search:
+  formats:
+    - html
+    - json
