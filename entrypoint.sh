@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Tor start karo background mein
-tor &
+# Tor ko background daemon ki tarah start karo
+tor --runasdaemon 1
 
-# 4-5 second wait karo taaki Tor connection ban sake
-sleep 4
+# Tor network circuit banne ka wait karo
+sleep 3
 
-# SearXNG ko granian ke through boot karo
-exec python3 -m searx.webapp
+# SearXNG ke official start script ko hand-over karo
+exec /usr/local/searxng/docker-entrypoint.sh
